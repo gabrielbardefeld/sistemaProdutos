@@ -1,18 +1,4 @@
-<?php 
-
-$produtos = [
-    ["nome" => "Teclado", "preco" => "90"],
-    ["nome" => "Mouse", "preco" => "100"],
-    ["nome" => "Fone", "preco" => "200"],
-];
-
-function calcularPrecoFinal($precoBase){
-    $taxa = $precoBase * 0.05; // que seria 5%
-    $imposto = $precoBase * 0.07; // que seria 7%
-    $precoFinal = $precoBase + $imposto + $taxa;
-    
-    return $precoFinal;
-}
+<?php
 
 $opcao = 0;
 
@@ -79,4 +65,5 @@ while ($opcao != 5) {
 
         }
 }
+
 ?>
